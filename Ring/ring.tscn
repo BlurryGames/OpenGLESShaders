@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://kgtyrt4jc8vy"]
+
+[ext_resource type="Shader" path="res://Ring/ring.gdshader" id="1_nbqnd"]
+[ext_resource type="Texture2D" uid="uid://niupx60ktc10" path="res://icon.svg" id="2_jg1qx"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_146vl"]
+shader = ExtResource("1_nbqnd")
+shader_parameter/color = Color(1, 0.32549, 0.32549, 1)
+shader_parameter/center = Vector2(0.5, 0.5)
+shader_parameter/radius = 0.5
+shader_parameter/width = 0.18
+
+[node name="Ring" type="Sprite2D"]
+material = SubResource("ShaderMaterial_146vl")
+texture = ExtResource("2_jg1qx")

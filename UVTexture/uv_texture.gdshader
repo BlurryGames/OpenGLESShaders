@@ -2,7 +2,7 @@ shader_type canvas_item;
 
 uniform sampler2D gradient_texture;
 
-uniform float offset: hint_range(0.0, 1.0, 0.01) = 0.0;
+uniform float offset: hint_range(0.0f, 1.0f, 0.01f) = 0.0f;
 
  void fragment()
 {
