@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://84pf6jttctxs"]
+
+[ext_resource type="Shader" path="res://Vertex/vertex.gdshader" id="1_x8ipn"]
+[ext_resource type="Texture2D" uid="uid://niupx60ktc10" path="res://icon.svg" id="2_sq72f"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cynsb"]
+shader = ExtResource("1_x8ipn")
+shader_parameter/offset_x = 0.0
+shader_parameter/stretch_y = 1.0
+shader_parameter/center_distance = 100.0
+
+[node name="Vertex" type="Sprite2D"]
+material = SubResource("ShaderMaterial_cynsb")
+texture = ExtResource("2_sq72f")

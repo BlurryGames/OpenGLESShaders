@@ -20,5 +20,6 @@ folder_colors={
 "res://BasicShader/": "pink",
 "res://Conditional/": "blue",
 "res://ScreenWipe/": "teal",
-"res://UVTexture/": "purple"
+"res://UVTexture/": "purple",
+"res://Vertex/": "green"
 }
