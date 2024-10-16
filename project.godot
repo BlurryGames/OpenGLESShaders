@@ -17,5 +17,6 @@ config/icon="res://icon.svg"
 [file_customization]
 
 folder_colors={
-"res://BasicShader/": "pink"
+"res://BasicShader/": "pink",
+"res://UVTexture/": "purple"
 }
